@@ -23,6 +23,9 @@ class Calculator:
         self.subtract_button = Button(master, text="-", command=lambda: self.update("subtract"))
         self.reset_button = Button(master, text="Reset", command=lambda: self.update("reset"))
 
+        for i in range(9):
+            name
+
         # LAYOUT
 
         self.label.grid(row=0, column=0, sticky=W)
