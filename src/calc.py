@@ -27,6 +27,9 @@ class Calculator:
             self.name = Button(master, text=i, command=lambda: self.userInput(i))
 
 
+        for i in range(9):
+            name
+
         # LAYOUT
 
         self.label.grid(row=0, column=0, sticky=W)
