@@ -4,7 +4,7 @@
 
 
 # Want to use this to create 9 tkinter button ojects for this gui.
-for i in range(9):
+for i in range(10):
     name = f'number_{i}_button'
     self.name = Button(master, text=i, command=lambda: self.userInput(i))
 
