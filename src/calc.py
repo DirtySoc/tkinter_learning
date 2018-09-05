@@ -22,6 +22,10 @@ class Calculator:
         self.add_button = Button(master, text="+", command=lambda: self.update("add"))
         self.subtract_button = Button(master, text="-", command=lambda: self.update("subtract"))
         self.reset_button = Button(master, text="Reset", command=lambda: self.update("reset"))
+        for i in range(0, 9):
+            name = 'number_' + str(i) + 'button'
+            self.name = Button(master, text=i, command=lambda: self.userInput(i))
+
 
         # LAYOUT
 
